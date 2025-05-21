@@ -3,7 +3,7 @@ criterion:
 
 optimizer:
   name: adamw
-  lr: 0.002
+  lr: 0.0002
   weight_decay: 0.01
 
 scheduler:
@@ -27,6 +27,7 @@ quantize:
 noise:
   phase_bias: 0
   phase_noise_std: 0
+  weight_noise_std: 0
   gamma_noise_std: 0
   crosstalk_factor: 0
   random_state: 42
@@ -52,7 +53,7 @@ checkpoint:
   restore_checkpoint: ""
 
 model:
-  name: "SparseBP_MRR_ResNet20"
+  name: "SparseBP_MRR_ResNet18"
   mode: "weight"
 
 

@@ -15,7 +15,7 @@ run:
   n_epochs: 100
   Noise_aware_training: False
   n_epochs_Na: 0
-  batch_size: 32
+  batch_size: 64
   use_cuda: 1
   gpu_id: 0
   deterministic: 1
@@ -32,7 +32,7 @@ noise:
   delta_T: 0
   crosstalk_factor: 0
   random_state: 42
-  weight_noise_Std: 0.0
+  weight_noise_std: 0.0
 
 sparse:
   bp_forward_weight_sparsity: 0

@@ -79,6 +79,7 @@ class AddDropMRRBlockLinear(ONNBaseLayer):
         self.w_bit = 32
         self.in_bit = 32
         self.phase_noise_std = 0
+        self.weight_noise_std = 0
 
         self.weight_rank = []
 
