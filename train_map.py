@@ -257,7 +257,7 @@ def main() -> None:
             device=torch.device("cuda"),
         )
         crosstalk_scheduler = CrosstalkScheduler(
-            Size=[4, 4, 8, 8],
+            # Size=[4, 4, 8, 8],
             crosstalk_coupling_factor=configs.noise.crosstalk_factor,
             interv_h=configs.noise.inter_h,
             interv_v=configs.noise.inter_v,
