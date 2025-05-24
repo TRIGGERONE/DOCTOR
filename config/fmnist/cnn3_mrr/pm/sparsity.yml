@@ -28,7 +28,7 @@ noise:
   set_Crosstalk: False
   noise_std_std: 0      #[0, 100, 200, 300, 400, 500, 600, 700, 800, 900]
   noise_std_mean: 0.    #[0., 0.1, 0.2]
-  PV_scheduler: 'high'
+  PV_schedule: 'high'
   noise_scenario_src: 'edge'
   noise_scenario_tgt: 'corner'
   delta_T: 0           #[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -57,7 +57,7 @@ checkpoint:
   resume: 1
   no_linear: 0
   # restore_checkpoint: ./checkpoint/fmnist/cnn3_mrr/pretrain/SparseBP_MRR_VGG8_wb-32_ib-32__acc-90.97_epoch-197.pt
-  restore_checkpoint: ./checkpoint/fmnist/cnn3_mrr/pretrain/SparseBP_MRR_VGG8_wb-32_ib-32__acc-90.94_epoch-189.pt
+  restore_checkpoint: ./checkpoint/fmnist/cnn3_mrr/pretrain/SparseBP_MRR_CNN_wb-32_ib-32__acc-92.75_epoch-99.pt
 
 model:
   name: "SparseBP_MRR_CNN"
