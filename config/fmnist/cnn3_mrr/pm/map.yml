@@ -44,7 +44,7 @@ checkpoint:
   model_comment: ""
   resume: 1
   no_linear: 0
-  restore_checkpoint: ./checkpoint/fmnist/cnn3_mrr/pretrain/SparseBP_MRR_CNN_wb-32_ib-32__acc-92.75_epoch-99.pt
+  restore_checkpoint: ./checkpoint/fmnist/cnn2/pretrain/SparseBP_MZI_CNN_wb-32_ib-32__acc-93.02_epoch-95.pt
 
 model:
   name: "SparseBP_MRR_CNN"
